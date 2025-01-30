@@ -6,7 +6,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 8px 80px;
   background: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
@@ -34,5 +34,43 @@ body {
   transition: 0.4ss ease;
 }
 #navbar li a:hover {
-  color: rgb(230, 15, 15);
+  color: rgb(147, 64, 163);
+}
+.page-header {
+  background-image: url(image/shopbg.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-header h1 {
+  color: #fff;
+  font-size: 3.5em;
+  margin: 10px 0;
+}
+.page-header h2 {
+  color: #fff;
+  margin: 10px 0;
+}
+.brand-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 15px 15px;
+}
+.brand-logo img {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+  border: 2px solid rgb(165, 90, 165);
+  border-radius: 10px;
+}
+
+.brand-logo:hover img {
+  transform: scale(1.1);
 }

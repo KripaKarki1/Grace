@@ -34,7 +34,7 @@ body {
   transition: 0.4ss ease;
 }
 #navbar li a:hover {
-  color: rgb(230, 15, 15);
+  color: rgb(147, 64, 163);
 }
 
 #hero {
